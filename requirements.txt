@@ -46,7 +46,7 @@ Markdown==3.1.1
 MarkupSafe==2.0.1
 multidict==5.1.0
 multitasking==0.0.9
-nltk==3.6.2
+nltk==3.5
 numpy==1.19.5
 oauthlib==3.1.1
 opt-einsum==3.3.0

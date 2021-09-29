@@ -2,7 +2,7 @@ from flask import render_template,flash, request
 from chatbot.forms import chatbotform
 from chatbot.__init__ import model,words,classes,intents
 from flask import Flask
-from flask_ngrok import run_with_ngrok
+
 import nltk
 import pickle
 import json
@@ -11,7 +11,7 @@ from keras.models import Sequential,load_model
 import random
 from datetime import datetime
 import pytz
-from alpha_vantage.timeseries import TimeSeries 
+
 import requests
 import os
 import billboard
@@ -29,7 +29,7 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
 
 app = Flask(__name__)
-run_with_ngrok(app)
+
 
 
 #Predict

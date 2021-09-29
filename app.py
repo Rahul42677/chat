@@ -182,12 +182,15 @@ def response(text):
 
 
 
+@app.route('/')
+def index():
+    return "<h1>Welcome to our server !!</h1>"
 
 @app.route('/chat',methods=["POST","GET"])
 
 
 
-#@app.route('/')
+
 def func():
     msg = request.args['msg']
     file1 = open("MyFile.txt","a")

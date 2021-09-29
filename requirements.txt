@@ -15,4 +15,5 @@ gunicorn==19.9.0
 billboard.py
 pytz==2019.3
 transformers
-tensorflow
+https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow_cpu-2.6.0-cp36-cp36m-win_amd64.whl
+

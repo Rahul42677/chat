@@ -5,7 +5,7 @@ from chatbotconfig import Config
 app=Flask(__name__)
 app.config.from_object(Config)
 
-from tensorflow import keras 
+import keras 
 import nltk
 import pickle
 import json
